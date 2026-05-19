@@ -25,7 +25,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://kurumiblog-kurumi-tao.netlify.app/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-05-18", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	lang: SITE_LANG,
@@ -125,10 +125,11 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/1.png",
+				"/assets/desktop-banner/2.png",
+				"/assets/desktop-banner/3.png",
+				"/assets/desktop-banner/4.png",
+				"/assets/desktop-banner/5.png",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
@@ -245,10 +246,11 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
+			"/assets/desktop-banner/1.png",
+				"/assets/desktop-banner/2.png",
+				"/assets/desktop-banner/3.png",
+				"/assets/desktop-banner/4.png",
+				"/assets/desktop-banner/5.png",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/1.webp",
